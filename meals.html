@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="style.css">
+     <style>
+        body{
+            background-image: url('mel.jpg');
+            
+            background-size: cover;
+        }
+        
+        h1{
+            text-align: center;
+            font-size: 60px;
+            color:#2196F3;
+        
+        }
+        form{
+            text-align: center;
+            padding-top: 30px;
+            
+        }
+        h3{
+            text-align: center;
+            color:rgba(16, 105, 178, 0.8);
+            ;border: 2px solid rgba(33, 150, 243,0.8);
+            background-color:pink;
+            width: 40%;
+            margin-left: 440px;
+        }
+        div.bestbrands{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            row-gap: 10px;
+            column-gap: 10px;
+        }
+        div.items{
+            padding: 30px;
+            text-align: center;
+        }
+        #aaa{
+            margin-left: 40%;
+            margin-top: 18%;
+            width:20%;
+            border:2px solid pink;
+            box-sizing: 100px;
+            background-color: rgba(255, 192, 203,0.8);
+            border-radius: 20px;
+            box-shadow: 10px 10px 0px black;
+            color: chocolate;}
+          
+           .btn{
+            background-color: #cde5d4;
+            border-radius: 5px;
+           }
+           .btn:hover{
+            font-size: 22px;
+           }
+        .button:hover{
+            background-color: palegreen;
+        }   
+            
+
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-image: url('meal.jpg');background-size: cover;">
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a  class="active" href="holiday_pakage.html">Holiday package</a>
+        <a href="meals.html" class="active">Meals</a>
+        <a href="contact.html" class="active">Contact Us</a>
+    
+        <div class="login-container">
+            
+                <input type="text" placeholder="Username" name="username">
+               
+                <input type="password" placeholder="Password" name="psw" style="padding-top: 9px;padding-bottom: 7px;border: none;border-radius: 3px;">
+                <button type="submit">Login</button>
+            </form>
+         </div>
+    </div>
+    <h1>e-catering</h1>
+<h3>Get Restaurant food delivered at your seat</h3>
+    <div style="margin-bottom: 20px;">
+    <form action id="aaa">
+        <h1>Order Food!</h1>
+        <input type="text" required placeholder="        Enter Train no or station" name="station" style="width:2in; height: 0.4in; border-radius: 10px; margin-bottom: 10px;"><br>
+        <input type="text" required placeholder="        Enter PNR to  order" name="PNR" style="width: 2in; height: 0.4in; border-radius: 10px; margin-bottom: 8px;"><br>
+        <button class="ho" onclick="fun()" style="width: 0.9in; height: 0.3in; background-color:#cde5d4; border-radius: 10px; "><b>Search</b></button><br>
+    </form></div></div>
+    <h2 style="text-align: center; color:rgba(16, 105, 178, 0.8);border: 2px solid rgba(33, 150, 243,0.8);background-color: pink;">OUR TOP BRANDS</h2>
+    <div class="bestbrands">
+        <div class="items">
+            <img src="b1.jpg" alt="dominos" style="border: 2px rgba(33, 150, 243,0.8) solid;"><br>
+            <button type="submit" class="btn">Order Now</button>
+        </div>
+        <div class="items">
+            <img src="b2.jpg" alt="" style="border: 2px rgba(33, 150, 243,0.8) solid;"><br>
+            <button type="submit" class="btn" >Order Now</button>
+        </div>
+        <div class="items">
+            <img src="b3.jpg" alt="" style="border: 2px rgba(33, 150, 243,0.8) solid"><br>
+            <button type="submit" class="btn">Order Now</button>
+        </div>
+        <div class="items">
+            <img src="b4.jpg" alt="" style="border: 2px rgba(33, 150, 243,0.8) solid"><br>
+            <button type="submit" class="btn">Order Now</button>
+        </div>
+        <div class="items">
+            <img src="b5.jpg" alt="" style="border: 2px rgba(33, 150, 243,0.8) solid;"><br>
+            <button type="submit"class="btn">Order Now</button>
+        </div>
+        <div class="items">
+            <img src="b6.jpg" alt="" style="border: 2px rgba(33, 150, 243,0.8) solid;"><br>
+            <button type="submit" class="btn">Order Now</button>
+        </div>
+        <div class="items">
+            <img src="b7.jpg" alt="" style="border: 2px rgba(33, 150, 243,0.8)solid;"><br>
+            <button type="submit"class="btn">Order Now</button>
+        </div>
+        <div class="items">
+            <img src="b8.jpg" alt="" style="border: 2px rgba(33, 150, 243,0.8) solid;"><br>
+            <button type="submit" class="btn">Order Now</button>
+        </div>
+        <div class="items">
+            <img src="b9.jpg" alt="" style="border: 2px rgba(33, 150, 243,0.8) solid;"><br>
+            <button type="submit"class="btn">Order Now</button>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+<script>
+    function fun(){
+        confirm("please click ok to confirm order")
+    }
+</script>
+</html>
